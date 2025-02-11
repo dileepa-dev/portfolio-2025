@@ -6,12 +6,13 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/Socials";
 import { Typewriter } from "react-simple-typewriter";
 import Photo from "@/components/Photo";
+import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col mt-20 xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* Text */}
           <div className="text-center xl:text-left order-2 xl:order-none"> 
             <span className="text-xl">
@@ -28,19 +29,21 @@ const Home = () => {
             <h1>
               Hello I'm <br/> <span className="text-accent">Dileepa Malshan</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/60">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam aspernatur laudantium porro accusamus officiis voluptatibus beatae ex-
+            <p className="max-w-[500px] mt-2 mb-7 text-white/60">
+            Building seamless, scalable, and secure solutions, where code meets creativity, and innovation drives impact.
             </p>
             {/* Button */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl"/>
-              </Button>
+              <a href="/dileepaCV.pdf" download="dileepaCV.pdf">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl"/>
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials 
                   containerStyles="flex gap-6" 
@@ -55,6 +58,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Stats/>
     </section>
   );
 };

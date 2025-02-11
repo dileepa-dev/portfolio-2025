@@ -1,22 +1,22 @@
 import Link from "next/link";
-import { FaGithub, FaFacebook, FaMedium, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaMedium, FaLinkedin } from "react-icons/fa";
 
 const socials = [
     {
         icon: <FaGithub />,
-        url: ""
+        url: "https://github.com/dileepa-dev"
     },
     {
         icon: <FaFacebook />,
-        url: ""
+        url: "https://www.facebook.com/share/15zMP2E1rb/?mibextid=wwXIfr"
     },
     {
         icon: <FaMedium />,
-        url: ""
+        url: "https://medium.com/@dlpmalshan"
     },
     {
-        icon: <FaInstagram />,
-        url: ""
+        icon: <FaLinkedin />,
+        url: "https://www.linkedin.com/in/dileepa-malshan/"
     }
 ]
 
