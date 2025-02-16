@@ -40,7 +40,7 @@ const education = {
   description: "I completed my Advanced Level at Veyangoda Bandaranayake Central College and am currently pursuing my undergraduate studies at Informatics Institute of Technology, affiliated with the University of Westminster, UK.",
   items: [
     { title: "Software Engineer (UG)", company: "Informatics Institute of Technology", date: "2022 - Present", description: "Bachelor's degree in Computer Science from the University of Colombo School of Computing." },
-    { title: "Advanced Level", company: "Veyangoda Bandaranayake Central College", date: "2016 - 2021", description: "Bachelor's degree in Computer Science from the University of Colombo School of Computing." },
+    { title: "Advanced Level", company: "Veyangoda Bandaranayake Central College", date: "2016 - 2021", description: "" },
     { title: "Ordinary Level", company: "Veyangoda Bandaranayake Central College", date: "2016 - 2021", description: "Bachelor's degree in Computer Science from the University of Colombo School of Computing." }
   ]
 };
