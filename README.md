@@ -1,1 +1,1 @@
-# portfolio-2025 by NEXT JS
+# portfolio by NEXT JS
