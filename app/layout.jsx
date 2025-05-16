@@ -13,6 +13,9 @@ const jetBrainsMono = JetBrainsMonoFont({
 export const metadata = {
   title: "Dileepa Malshan",
   description: "Dileepa Malshan's personal Portfolio",
+  icons: {
+    icon: '/public/icon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
