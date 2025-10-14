@@ -16,7 +16,7 @@ const Photo = () => {
                 className="w-[400px] h-[400px] xl:w-[500px] xl:h-[500px] flex items-center justify-center relative"
             >
                 <Image
-                    src="/assets/dileepa.JPG"
+                    src="/assets/cropped_circle_image.png"
                     priority
                     quality={100}
                     width={500}
