@@ -27,7 +27,7 @@ const experience = {
   title: "Experience",
   description: "I have experience working with a variety of technologies, including React, Spring Boot, Angular, and Swift. I have worked on a number of projects, including web applications, mobile applications, and APIs. I am always looking to learn new things and improve my skills.",
   items: [
-    { title: "Intern Software Engineer", company: "Hsenid Software Lanka", date: "2024 - Present", description: "Worked on a number of projects, including web applications, mobile applications, and APIs." },
+    { title: "Intern Software Engineer", company: "Hsenid Software Lanka", date: "2024 - 2025", description: "Worked on a number of projects, including web applications, mobile applications, and APIs." },
     { title: "Freelance App Developer", company: "DM App Studio", date: "2023 - Present", description: "bla bla bla" }
 
   ]
