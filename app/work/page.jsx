@@ -20,14 +20,25 @@ import WorkSliderButtons from '@/components/ui/WorkSliderButtons';
 
 const projects = [
   {
-    num: '01',
-    category: 'Front End',
-    title: 'She Fits',
-    description: 'A Simlple HTML, CSS, and Java Script website for a clothing designing project according to the user requirements',
-    stack: [{name:'HTML'}, {name:'CSS'}, {name:'Java Script'}, {name:'Vercel'}],
-    image: '/assets/Shefitscover.jpg',
-    github: 'https://github.com/dileepa-dev/she-fits.git',
-    live: 'https://she-fits.vercel.app',
+    num: '1',
+    category: 'Mobile App',
+    title: 'Crisis360',
+    description: 'A mobile app for a crisis management system with a ML model to predict the severity of the crisis',
+    stack: [
+      { name: 'Flutter' },
+      { name: 'Spring Boot' },
+      { name: 'Python' },
+      { name: 'BERT / Transformers' },
+      { name: 'Firebase' },
+      { name: 'Cloud Firestore' },
+      { name: 'Firebase Cloud Messaging (FCM)' },
+      { name: 'REST API' },
+      { name: 'GetX' },
+      { name: 'Dart' },
+    ],
+    image: '/assets/Crisis360.png',
+    github: 'https://github.com/dileepa-dev/crisis360-app',
+    live: 'https://www.youtube.com/watch?v=keCHeDDzJYk',
   },
   {
     num: '02',
@@ -41,6 +52,16 @@ const projects = [
   },
   {
     num: '03',
+    category: 'Mobile App',
+    title: 'Money Gone',
+    description: 'A mobile app for a personal finance management system ',
+    stack: [{name:'Flutter'}, {name:'Dart'}, {name:'Firebase'}],
+    image: '/assets/moneyGone.png',
+    github: 'https://github.com/dileepa-dev/crisis360-app',
+    live: 'https://youtu.be/keCHeDDzJYk?si=3uiIRSKgT97moThS',
+  },
+  {
+    num: '04',
     category: 'Front end',
     title: 'Portfolio',
     description: 'A portfolio website for a software engineer',
@@ -48,6 +69,16 @@ const projects = [
     image: '/assets/portfolio25.jpg',
     github: 'https://github.com/dileepa-dev/portfolio-2025.git',
     live: 'https://portfolio-2025-two-tau.vercel.app',
+  },
+  {
+    num: '05',
+    category: 'Front End',
+    title: 'She Fits',
+    description: 'A Simlple HTML, CSS, and Java Script website for a clothing designing project according to the user requirements',
+    stack: [{name:'HTML'}, {name:'CSS'}, {name:'Java Script'}, {name:'Vercel'}],
+    image: '/assets/Shefitscover.jpg',
+    github: 'https://github.com/dileepa-dev/she-fits.git',
+    live: 'https://she-fits.vercel.app',
   },
 ];
 
@@ -103,7 +134,7 @@ const Work = () => {
                         <BsArrowUpRight className='text-white text-3xl group-hoveer:text-accent' />
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Live Project</p>
+                        <p>Live Project / Demo</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
@@ -138,8 +169,13 @@ const Work = () => {
                     <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
                     <div className='absolute top-0 bottom-0 w-full h-full bg-black'></div>
                     <div className='relative w-full h-full'>
-                      <Image src={project.image} alt=" " fill className='object-cover'>
-                      </Image>
+                    <Image
+                        src={item.image}
+                        alt={`${item.title} project preview`}
+                        fill
+                        sizes="(max-width: 1280px) 100vw, 50vw"
+                        className="object-cover"
+                    />
                     </div>
                     </div>
                   </SwiperSlide>

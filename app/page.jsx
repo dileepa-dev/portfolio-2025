@@ -17,7 +17,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none"> 
             <span className="text-xl">
               <Typewriter
-                words={["Web developer 👨🏻‍💻", "Mobile Developer 📲", "Gamer 🕹️", "Bike Lover 🏍️"]}
+                words={["Web developer 👨🏻‍💻", "Mobile Developer 📲", "Gamer 🕹️", "Bike Lover 🏍️", "Volleyball Player 🏐"]}
                 loop={0} 
                 cursor
                 cursorStyle="|"

@@ -15,7 +15,7 @@ const about = {
     { filedname: "Name", value: "Dileepa Mslahan" },
     { filedname: "Phone", value: "+94 773613102" },
     { filedname: "Email", value: "dlpmalshan@gmail.com" },
-    { filedname: "job", value: "Intern SE" },
+    { filedname: "job", value: "Software Developer" },
     { filedname: "Experience", value: "1+ Years" },
     { filedname: "Languages", value: "English, Sinhala" },
   ]
@@ -27,8 +27,8 @@ const experience = {
   title: "Experience",
   description: "I have experience working with a variety of technologies, including React, Spring Boot, Angular, and Swift. I have worked on a number of projects, including web applications, mobile applications, and APIs. I am always looking to learn new things and improve my skills.",
   items: [
-    { title: "Intern Software Engineer", company: "Hsenid Software Lanka", date: "2024 - 2025", description: "Worked on a number of projects, including web applications, mobile applications, and APIs." },
-    { title: "Freelance App Developer", company: "DM App Studio", date: "2023 - Present", description: "bla bla bla" }
+    { title: "Freelance App Developer", company: "DM App Studio", date: "2023 - Present", description: "" },
+    { title: "Intern Software Engineer", company: "Hsenid Software Lanka", date: "2023 May - 2024 June", description: "Worked on a number of projects, including web applications, mobile applications, and APIs." }
 
   ]
 };
@@ -39,7 +39,7 @@ const education = {
   title: "Education",
   description: "I completed my Advanced Level at Veyangoda Bandaranayake Central College and am currently pursuing my undergraduate studies at Informatics Institute of Technology, affiliated with the University of Westminster, UK.",
   items: [
-    { title: "Software Engineer (UG)", company: "Informatics Institute of Technology", date: "2022 - Present", description: "Bachelor's degree in Computer Science from the University of Colombo School of Computing." },
+    { title: "BEng (Hons) Software Engineering", company: "Informatics Institute of Technology", date: "2022 - 2026", description: "Bachelor's degree in Computer Science from the University of Colombo School of Computing." },
     { title: "Advanced Level", company: "Veyangoda Bandaranayake Central College", date: "2016 - 2021", description: "" },
     { title: "Ordinary Level", company: "Veyangoda Bandaranayake Central College", date: "2016 - 2021", description: "Bachelor's degree in Computer Science from the University of Colombo School of Computing." }
   ]
